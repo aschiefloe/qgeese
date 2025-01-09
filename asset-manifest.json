@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/qgeese/static/css/main.9dfe294f.css",
+    "main.js": "/qgeese/static/js/main.87068c78.js",
+    "static/media/diskgolf.png": "/qgeese/static/media/diskgolf.091970e8c1a1e334eed0.png",
+    "index.html": "/qgeese/index.html",
+    "main.9dfe294f.css.map": "/qgeese/static/css/main.9dfe294f.css.map",
+    "main.87068c78.js.map": "/qgeese/static/js/main.87068c78.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.9dfe294f.css",
+    "static/js/main.87068c78.js"
+  ]
+}
