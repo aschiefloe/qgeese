@@ -1,0 +1,165 @@
+:root {
+  --background: #ffc0cb; /* Baby pink */
+  --navbar-width: 256px;
+  --navbar-width-min: 80px;
+  --navbar-dark-primary: #ff69b4; /* Hot pink */
+  --navbar-dark-secondary: #ff99cc; /* Light hot pink */
+  --navbar-light-primary: #ffe4e1; /* Light pink */
+  --navbar-light-secondary: #ffb6c1; /* Soft pink */
+}
+
+/* General styles for active and disabled layers */
+.active-layer {
+  color: #ff69b4; /* Hot pink */
+}
+
+.disabled-layer {
+  color: #f8b6c1; /* Muted pink */
+}
+
+.menu-layer {
+  cursor: pointer;
+  color: #ff69b4; /* Hot pink for text */
+}
+
+/* Styling for layers */
+.layer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 90%;
+  padding: 0.4em;
+  margin: 4px 10px;
+  background-color: #ffe4e1; /* Light pink */
+  border-radius: 0; /* Square corners */
+  font-size: 1em;
+  font-weight: 600;
+  cursor: pointer;
+  transition: transform 0.2s, background-color 0.3s;
+}
+
+.layer:hover {
+  background-color: #ff99cc; /* Slightly darker pink on hover */
+  transform: scale(1.05);
+}
+
+/* Styling for the menu container */
+.menu-container {
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  width: 20vw;
+  background-color: #ff69b4; /* Hot pink */
+  padding: 20px;
+  overflow-y: auto;
+  border-left: 2px solid #ffb6c1; /* Light pink border */
+  min-width: 250px;
+  color: white;
+}
+
+/* Styling for the menu headline */
+.menu-container h1 {
+  text-align: center;
+  font-size: 1.5em;
+  margin-bottom: 10px;
+  color: white;
+}
+
+.menu-container p {
+  text-align: center;
+  font-size: 0.9em;
+  margin-bottom: 20px;
+  color: #ffe4e1; /* Light pink text */
+}
+
+/* Styling for collapsible headers */
+.collapsible-header {
+  cursor: pointer;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 15px;
+  background-color: #ffc0cb; /* Light pink */
+  color: #8b0000; /* Darker pink/red for better readability */
+  font-weight: bold;
+  border-radius: 0; /* Square corners */
+  font-size: 1.2em;
+}
+
+.collapsible-header:hover {
+  background-color: #ffb6c1; /* Slightly darker pink */
+}
+
+/* Styling for tools */
+.tool {
+  background-color: #ffe4e1; /* Light pink */
+  margin: 10px 0; /* Spacing between tools */
+  padding: 15px; /* Increased padding for better spacing */
+  border-radius: 0; /* Square corners */
+  font-size: 1em;
+  color: #8b0000; /* Dark pink for readability */
+  width: 100%; /* Ensure the tool container spans the full width */
+  box-sizing: border-box; /* Include padding in width calculation */
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start; /* Align content to the start */
+  transition: background-color 0.3s, transform 0.2s;
+}
+
+.tool:hover {
+  background-color: #ff99cc; /* Slightly darker pink */
+  transform: scale(1.02); /* Slight hover effect */
+}
+
+.tool select,
+.tool input[type="number"] {
+  margin: 10px 0; /* Consistent spacing for inputs */
+  width: 100%; /* Full width for dropdowns and inputs */
+  box-sizing: border-box;
+}
+
+.tool input[type="submit"] {
+  margin-top: 10px; /* Spacing from the previous element */
+  align-self: stretch; /* Make the button match the container width */
+  cursor: pointer;
+  background-color: #ff69b4; /* Hot pink */
+  color: white;
+  border: none;
+  border-radius: 5px;
+  padding: 10px;
+  font-size: 1em;
+  text-align: center;
+  transition: background-color 0.3s, transform 0.2s;
+}
+
+.tool input[type="submit"]:hover {
+  background-color: #ff99cc; /* Lighter hot pink */
+  transform: scale(1.05);
+}
+
+
+/* Styling for forms */
+form {
+  border-radius: 0; /* Square corners */
+  color: #8b0000; /* Darker pink for form text */
+}
+
+/* Styling for select inputs */
+select {
+  border-radius: 0; /* Square corners */
+  border: 1px solid #ffb6c1; /* Soft pink */
+  background-color: #ffe4e1; /* Light pink */
+  color: #8b0000; /* Darker pink for readability */
+  padding: 5px;
+}
+
+
+/* Styling for layer and tool items */
+.map-menu-container .layer-item, .map-menu-container .tool-item {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px 0;
+  border-bottom: 1px solid #ffb6c1; /* Light pink border */
+}
