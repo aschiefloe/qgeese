@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/qgeese/static/css/main.9dfe294f.css",
-    "main.js": "/qgeese/static/js/main.c2717e52.js",
+    "main.js": "/qgeese/static/js/main.38b16f66.js",
     "index.html": "/qgeese/index.html",
     "main.9dfe294f.css.map": "/qgeese/static/css/main.9dfe294f.css.map",
-    "main.c2717e52.js.map": "/qgeese/static/js/main.c2717e52.js.map"
+    "main.38b16f66.js.map": "/qgeese/static/js/main.38b16f66.js.map"
   },
   "entrypoints": [
     "static/css/main.9dfe294f.css",
-    "static/js/main.c2717e52.js"
+    "static/js/main.38b16f66.js"
   ]
 }
